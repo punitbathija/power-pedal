@@ -18,7 +18,7 @@ function Header() {
   }, []);
 
   return (
-    <div className="flex md:px-10 bg-offwhite text-goodblack md:h-17 md:py-12 items-center h-12 justify-between overflow-hidden">
+    <div className="flex md:px-10 bg-offwhite text-goodblack md:h-17 md:py-12 items-center h-60 justify-between overflow-hidden">
       <nav className="flex md:justify-around md:items-center w-full">
         <div className="flex justify-between items-center">
           <div className="md:my-4 cursor-pointer md:border-2 mx-5 h-14 md:p-2 md:bg-goodwhite flex gap-1 justify-start text-lg md:text-2xl text-justify items-center  hover:text-goodwhite hover:bg-goodblack hover:rounded-md duration-700">
@@ -29,7 +29,7 @@ function Header() {
           className={
             showMenu
               ? "show"
-              : "md:flex gap-24 font-normal md:static absolute md:p-4  text-xl md:text-2xl shadow w-fit md:z-auto md:opacity-100 opacity-0 top-[-400] transition-all ease-in duration-500"
+              : "md:flex gap-24 font-normal md:static md:p-4  text-xl md:text-2xl shadow w-fit md:z-auto md:opacity-100 opacity-0 top-[-400] transition-all ease-in duration-500"
           }
         >
           <li className="my-4 mx-6 cursor-pointer md:p-2 hover:text-goodred duration-500">
