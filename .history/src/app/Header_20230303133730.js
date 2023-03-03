@@ -1,0 +1,21 @@
+import Image from "next/image";
+import React from "react";
+import Logo from "../../public/assets/logo.png";
+
+function Header() {
+  return (
+    <div>
+      <nav>
+        <ul>
+          <li>POWER PEDAL</li>
+          <li>About</li>
+          <li>Feature</li>
+          <li>Products</li>
+          <li>Order</li>
+        </ul>
+      </nav>
+    </div>
+  );
+}
+
+export default Header;

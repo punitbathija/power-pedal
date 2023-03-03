@@ -1,15 +1,9 @@
 import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "./page.module.css";
-import Header from "./Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  return (
-    <>
-      <Header />
-      <h1>Power Pedal</h1>;
-    </>
-  );
+  return <h1 className="bg-black text-white text-7xl">Hello World!</h1>;
 }
