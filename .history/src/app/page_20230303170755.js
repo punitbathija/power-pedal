@@ -58,6 +58,45 @@ export default function Home() {
       <h1>Power Pedal</h1>
       <h1>Power Pedal</h1>
       <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
+      <h1>Power Pedal</h1>
     </>
   );
 }
