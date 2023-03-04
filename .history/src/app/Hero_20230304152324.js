@@ -15,7 +15,7 @@ function Hero() {
             src={HeroImg}
             className="flex h-1/3 lg:w-1/2 w-5/6 items-center justify-center m-auto p-5"
           />
-          <div className="flex-col bg-goodblack text-goodwhite text-center lg:w-52 p-4 rounded-full lg:mb-96 font-semibold shadow-2xl my-4 animate-bounce mx-2">
+          <div className="flex-col bg-goodblack text-goodwhite text-center lg:w-52 p-4 rounded-full lg:mb-96 font-semibold shadow-2xl my-2animate-bounce mx-2">
             <p>
               <b className="text-goodred">New launch</b> Limited edition olive
               variant
