@@ -2,12 +2,13 @@ import React from "react";
 import Image from "next/image";
 import HeroImg from "../../public/assets/hero.png";
 import TyreImg from "../../public/assets/tyre.svg";
+import Wall from "../../public/assets/wall.jpg";
 
 function Hero() {
   return (
     <>
-      <div className="bg-offwhite flex-col items-center justify-center align-middle">
-        <div className=" lg:flex lg:flex-row flex-col items-center justify-center align-middle lg:mx-56 py-52 lg:py-0">
+      <div className="bg-offwhite flex-col items-center justify-center align-middle rounded-xl">
+        <div className=" lg:flex lg:flex-row flex-col items-center justify-center align-middle lg:mx-56 my-52 lg:my-0">
           <h1 className="lg:text-9xl text-6xl font-light lg:font-semibold mx-auto my-16 lg:my-60 w-fit drop-shadow-2xl">
             POWER PEDAL
           </h1>
@@ -22,15 +23,12 @@ function Hero() {
             </p>
           </div>
         </div>
-        <p className="lg:text-6xl text-2xl lg:mx-56 text-center">
-          Ride the Power Feel the Pedal
+        <p className="lg:text-6xl text-2xl my-8 lg:mx-56 text-center">
+          ride the power feel the pedal
           <Image
             src={TyreImg}
-            className="flex h-1/2 w-2/4 lg:h-1/6 lg:w-1/3 items-center justify-center m-auto hover:animate-spin lg:my-12 py-16"
+            className="flex h-1/6 lg:w-1/2 items-center justify-center m-auto hover:animate-spin w-36 my-12"
           />
-        </p>
-        <p className="text-center font-lg text-xl lg:text-2xl pb-10 drop-shadow-2xl">
-          Top Speed <span className="text-goodred">50 Kmph</span>
         </p>
       </div>
     </>

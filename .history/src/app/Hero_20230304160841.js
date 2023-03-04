@@ -6,7 +6,7 @@ import TyreImg from "../../public/assets/tyre.svg";
 function Hero() {
   return (
     <>
-      <div className="bg-offwhite flex-col items-center justify-center align-middle">
+      <div className="bg-offwhite flex-col items-center justify-center align-middle rounded-xl">
         <div className=" lg:flex lg:flex-row flex-col items-center justify-center align-middle lg:mx-56 py-52 lg:py-0">
           <h1 className="lg:text-9xl text-6xl font-light lg:font-semibold mx-auto my-16 lg:my-60 w-fit drop-shadow-2xl">
             POWER PEDAL
@@ -23,13 +23,13 @@ function Hero() {
           </div>
         </div>
         <p className="lg:text-6xl text-2xl lg:mx-56 text-center">
-          Ride the Power Feel the Pedal
+          ride the power feel the pedal
           <Image
             src={TyreImg}
             className="flex h-1/2 w-2/4 lg:h-1/6 lg:w-1/3 items-center justify-center m-auto hover:animate-spin lg:my-12 py-16"
           />
         </p>
-        <p className="text-center font-lg text-xl lg:text-2xl pb-10 drop-shadow-2xl">
+        <p className="text-center font-lg text-2xl ">
           Top Speed <span className="text-goodred">50 Kmph</span>
         </p>
       </div>
