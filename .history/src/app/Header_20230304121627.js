@@ -1,10 +1,25 @@
 "use client";
-import React from "react";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
+import { BsBicycle } from "react-icons/bs";
 import { HiMenuAlt3 } from "react-icons/hi";
 
 function Header() {
+  const navbarRef = useRef();
   const [showMenu, setShowMenu] = useState(false);
+  const [hideMenu, setHideMenu] = useState(true);
+
+  const handleOutsideClick = (e) => {
+    if (navbarRef.current && !navbarRef.current.contains(e.target)) {
+      setHideMenu(true);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("click", handleOutsideClick);
+    return () => {
+      window.removeEventListener("click", handleOutsideClick);
+    };
+  }, []);
 
   useEffect(() => {
     window.addEventListener("resize", () => {
@@ -16,10 +31,13 @@ function Header() {
 
   return (
     <div className="flex lg:px-10 bg-offwhite text-goodblack lg:h-17 lg:py-12 items-center h-12 justify-between overflow-hidden px-2">
-      <nav className="flex justify-between align-middle lg:justify-around lg:items-center w-full">
+      <nav
+        ref={navbarRef}
+        className="flex justify-between align-middle lg:justify-around lg:items-center w-full"
+      >
         <div className="flex justify-between align-middle items-center">
           <div className="lg:my-4 cursor-pointer lg:border-2 mx-5 h-14 lg:p-2 lg:bg-goodwhite flex gap-1 justify-start text-lg lg:text-2xl text-justify items-center  lg:hover:text-goodwhite lg:hover:bg-goodblack lg:hover:rounded-lg duration-700">
-            POWER PEDAL
+            <BsBicycle size={40} /> POWER PEDAL
           </div>
         </div>
         <ul

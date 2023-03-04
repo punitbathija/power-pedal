@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { useEffect, useState } from "react";
+import { BsBicycle } from "react-icons/bs";
 import { HiMenuAlt3 } from "react-icons/hi";
 
 function Header() {

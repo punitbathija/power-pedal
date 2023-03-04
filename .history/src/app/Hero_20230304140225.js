@@ -15,9 +15,7 @@ function Hero() {
             className="flex h-1/3 lg:w-1/2 w-2/3 items-center justify-center m-auto p-5"
           />
         </div>
-        <p className="text-6xl mx-56 text-center">
-          ride the power feel the pedal
-        </p>
+        <p className="text-2xl mx-56">ride the power feel the pedal</p>
       </div>
     </>
   );

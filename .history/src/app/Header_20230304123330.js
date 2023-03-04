@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { useEffect, useState } from "react";
+import { BsBicycle } from "react-icons/bs";
 import { HiMenuAlt3 } from "react-icons/hi";
 
 function Header() {
@@ -19,7 +20,7 @@ function Header() {
       <nav className="flex justify-between align-middle lg:justify-around lg:items-center w-full">
         <div className="flex justify-between align-middle items-center">
           <div className="lg:my-4 cursor-pointer lg:border-2 mx-5 h-14 lg:p-2 lg:bg-goodwhite flex gap-1 justify-start text-lg lg:text-2xl text-justify items-center  lg:hover:text-goodwhite lg:hover:bg-goodblack lg:hover:rounded-lg duration-700">
-            POWER PEDAL
+            <BsBicycle size={40} /> POWER PEDAL
           </div>
         </div>
         <ul
