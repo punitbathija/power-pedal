@@ -26,7 +26,6 @@ function Hero() {
         <p className="lg:text-6xl text-2xl lg:mx-56 text-center">
           Ride the Power Feel the Pedal
           <Image
-            alt="wheel"
             src={TyreImg}
             className="flex h-1/2 w-2/4 lg:h-1/6 lg:w-1/3 items-center justify-center m-auto hover:animate-spin lg:my-12 py-16"
           />

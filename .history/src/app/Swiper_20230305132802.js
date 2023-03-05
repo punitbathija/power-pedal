@@ -13,8 +13,8 @@ export default ({ slides }) => {
       navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
-      onSlideChange={() => console.log("")}
-      onSwiper={(swiper) => console.log()}
+      onSlideChange
+      onSwiper={(swiper) => console.log("")}
       effect={"cube"}
       cubeEffect={{
         shadow: true,
