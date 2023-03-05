@@ -1,6 +1,4 @@
 import React from "react";
-import Swiper from "./Swiper";
-import slides from "./aboutImages.json";
 
 function About() {
   return (
@@ -10,7 +8,7 @@ function About() {
       </p>
       <hr className="flex my-12 w-[90%] text-center justify-center m-auto" />
       <div className="lg:flex text-center justify-self-center">
-        <h1 className="lg:w-1/2 lg:font-mediumlg:text-3xl text-2xl m-auto tracking-wide">
+        <h1 className="lg:w-1/2 lg:font-medium lg:text-3xl text-2xl m-auto tracking-wide">
           At PowerPedal, we believe that the future of transportation is
           electric. We are a team of{" "}
           <span className="text-goodred lg:text-5xl">
@@ -22,13 +20,10 @@ function About() {
           and enjoy the ride.
         </h1>
         <br />
-        <h1 className="lg:w-1/3 lg:font-mediumlg:text-3xl text-2xl m-auto">
+        <h1 className="lg:w-1/3 lg:font-medium lg:text-3xl text-2xl m-auto">
           We believe that eco-friendly products are the answer for the{" "}
           <span className="text-goodred lg:text-5xl">bright future</span>
         </h1>
-      </div>
-      <div>
-        <Swiper slides={slides} />
       </div>
     </div>
   );

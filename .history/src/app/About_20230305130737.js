@@ -27,7 +27,7 @@ function About() {
           <span className="text-goodred lg:text-5xl">bright future</span>
         </h1>
       </div>
-      <div>
+      <div className="flex justify-center justify-items-center">
         <Swiper slides={slides} />
       </div>
     </div>

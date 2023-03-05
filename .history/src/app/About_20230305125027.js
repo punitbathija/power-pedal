@@ -28,7 +28,7 @@ function About() {
         </h1>
       </div>
       <div>
-        <Swiper slides={slides} />
+        <Swiper />
       </div>
     </div>
   );

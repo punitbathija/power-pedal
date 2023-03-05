@@ -1,6 +1,5 @@
 import React from "react";
 import Swiper from "./Swiper";
-import slides from "./aboutImages.json";
 
 function About() {
   return (
@@ -23,12 +22,12 @@ function About() {
         </h1>
         <br />
         <h1 className="lg:w-1/3 lg:font-mediumlg:text-3xl text-2xl m-auto">
-          We believe that eco-friendly products are the answer for the{" "}
+          We believe that eco-friendly products are the answer for the
           <span className="text-goodred lg:text-5xl">bright future</span>
         </h1>
       </div>
       <div>
-        <Swiper slides={slides} />
+        <Swiper />
       </div>
     </div>
   );

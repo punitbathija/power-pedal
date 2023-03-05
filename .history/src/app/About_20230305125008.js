@@ -1,6 +1,6 @@
 import React from "react";
 import Swiper from "./Swiper";
-import slides from "./aboutImages.json";
+import lides from "";
 
 function About() {
   return (
@@ -28,7 +28,7 @@ function About() {
         </h1>
       </div>
       <div>
-        <Swiper slides={slides} />
+        <Swiper />
       </div>
     </div>
   );

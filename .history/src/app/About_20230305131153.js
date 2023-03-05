@@ -28,7 +28,10 @@ function About() {
         </h1>
       </div>
       <div>
-        <Swiper slides={slides} />
+        <Swiper
+          slides={slides}
+          className="flex justify-center justify-items-center mx-auto"
+        />
       </div>
     </div>
   );
