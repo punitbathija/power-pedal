@@ -11,10 +11,10 @@ import Image from "next/image";
 import { BiPurchaseTag } from "react-icons/bi";
 
 function Products() {
-  const [selectedColor, setSelectedColor] = useState("green");
+  const [selectedColor, setSelectedColor] = useState("");
 
-  const handleColor = (color) => {
-    setSelectedColor(color);
+  const handleColor = () => {
+    selectedColor(color);
   };
 
   return (
@@ -41,21 +41,21 @@ function Products() {
           {selectedColor === "green" && (
             <Image
               alt="cycle"
-              src={GreenImg}
+              src={HeroImg}
               className="flex items-center justify-center m-auto p-5 drop-shadow-2xl lg:my-20"
             />
           )}
           {selectedColor === "skin" && (
             <Image
               alt="cycle"
-              src={SkinImg}
+              src={HeroImg}
               className="flex items-center justify-center m-auto p-5 drop-shadow-2xl lg:my-20"
             />
           )}
-          {selectedColor === "black" && (
+          {selectedColor === "green" && (
             <Image
               alt="cycle"
-              src={BlackImg}
+              src={HeroImg}
               className="flex items-center justify-center m-auto p-5 drop-shadow-2xl lg:my-20"
             />
           )}

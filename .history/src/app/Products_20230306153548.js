@@ -1,21 +1,14 @@
 "use client";
 
 import React, { useState } from "react";
-import GreenImg from "../../public/assets/hero.png";
-import SkinImg from "../../public/assets/skin.png";
-import BlackImg from "../../public/assets/black.png";
-
+import HeroImg from "../../public/assets/hero.png";
 import BelarImg from "../../public/assets/belar.png";
 
 import Image from "next/image";
 import { BiPurchaseTag } from "react-icons/bi";
 
 function Products() {
-  const [selectedColor, setSelectedColor] = useState("green");
-
-  const handleColor = (color) => {
-    setSelectedColor(color);
-  };
+  const [selectedColor, setSelectedColor] = useState("");
 
   return (
     <div className="py-8 lg:mx-56 mx-2 bg-goodwhite text-goodblack">
@@ -38,50 +31,24 @@ function Products() {
             Power Pedal Vulcun 750
           </h1>
           <hr className="text-goodblack py-2" />
-          {selectedColor === "green" && (
-            <Image
-              alt="cycle"
-              src={GreenImg}
-              className="flex items-center justify-center m-auto p-5 drop-shadow-2xl lg:my-20"
-            />
-          )}
-          {selectedColor === "skin" && (
-            <Image
-              alt="cycle"
-              src={SkinImg}
-              className="flex items-center justify-center m-auto p-5 drop-shadow-2xl lg:my-20"
-            />
-          )}
-          {selectedColor === "black" && (
-            <Image
-              alt="cycle"
-              src={BlackImg}
-              className="flex items-center justify-center m-auto p-5 drop-shadow-2xl lg:my-20"
-            />
-          )}
-
+          <Image
+            alt="cycle"
+            src={HeroImg}
+            className="flex items-center justify-center m-auto p-5 drop-shadow-2xl lg:my-20"
+          />
           <h1 className="text-goodblack text-xl font-semibold text-center">
             <span className="text-goodred">Power Pedal Vulcun 750</span> is a
             beast of a cycle it has a range of 50 km's and battery life of 3.5
             hours/charge
           </h1>
           <div className="my-4 flex gap-3 justify-center justify-items-center align-middle w-fit mx-auto text-center">
-            <p
-              className="text-center bg-olivegreen w-6 rounded-full text-transparent"
-              onClick={() => handleColor("green")}
-            >
+            <p className="text-center bg-olivegreen w-6 rounded-full text-transparent">
               .
             </p>
-            <p
-              className="text-center bg-skin w-6 rounded-full text-transparent"
-              onClick={() => handleColor("skin")}
-            >
+            <p className="text-center bg-skin w-6 rounded-full text-transparent">
               .
             </p>
-            <p
-              className="text-center bg-black w-6 rounded-full text-transparent"
-              onClick={() => handleColor("black")}
-            >
+            <p className="text-center bg-black w-6 rounded-full text-transparent">
               .
             </p>
           </div>
