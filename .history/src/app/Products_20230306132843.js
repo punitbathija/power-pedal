@@ -28,9 +28,7 @@ function Products() {
           src={HeroImg}
           className="flex items-center justify-center m-auto p-5 drop-shadow-2xl"
         />
-        <p className="font-semibold lg:text-xl p-4 bg-goodwhite w-fit rounded-full">
-          Hello World!
-        </p>
+        <p className="font-semibold lg:text-xl p-4 bg-goodwhite w-fit rounded-full"></p>
       </div>
     </div>
   );

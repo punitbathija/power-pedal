@@ -1,6 +1,4 @@
 import React from "react";
-import HeroImg from "../../public/assets/hero.png";
-import Image from "next/image";
 
 function Products() {
   return (
@@ -19,17 +17,15 @@ function Products() {
         </p>
       </div>
       <div className="text-center my-2 justify-self-center bg-offwhite p-10 rounded-lg shadow-2xl lg:w-1/2 cursor-pointer lg:hover:scale-105 hover:shadow-2xl">
-        <h1 className="text-goodred text-2xl font-semibold flex gap-2 align-middle justify-center text-center">
+        <h1 className="text-goodblack text-2xl font-semibold flex gap-2 align-middle justify-center text-center">
           Power Pedal Vulcun 750
         </h1>
         <hr className="text-goodblack py-2" />
-        <Image
-          alt="cycle"
-          src={HeroImg}
-          className="flex items-center justify-center m-auto p-5 drop-shadow-2xl"
-        />
-        <p className="font-semibold lg:text-xl p-4 bg-goodwhite w-fit rounded-full">
-          Hello World!
+        <p className="text-goodblack text-2xl font-light ">
+          The bike offers a range of upto{" "}
+          <span className="text-goodred">50 Km's</span> i'ts build with over
+          <span className="text-goodred"> 200 Components </span>
+          all bind to hold up to the elements on long road.
         </p>
       </div>
     </div>

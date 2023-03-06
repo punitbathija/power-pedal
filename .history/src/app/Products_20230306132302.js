@@ -1,6 +1,5 @@
 import React from "react";
-import HeroImg from "../../public/assets/hero.png";
-import Image from "next/image";
+import { bikeImgOlive } from "../../public/assets/hero.png";
 
 function Products() {
   return (
@@ -19,18 +18,15 @@ function Products() {
         </p>
       </div>
       <div className="text-center my-2 justify-self-center bg-offwhite p-10 rounded-lg shadow-2xl lg:w-1/2 cursor-pointer lg:hover:scale-105 hover:shadow-2xl">
-        <h1 className="text-goodred text-2xl font-semibold flex gap-2 align-middle justify-center text-center">
+        <h1 className="text-goodblack text-2xl font-semibold flex gap-2 align-middle justify-center text-center">
           Power Pedal Vulcun 750
         </h1>
         <hr className="text-goodblack py-2" />
         <Image
           alt="cycle"
-          src={HeroImg}
-          className="flex items-center justify-center m-auto p-5 drop-shadow-2xl"
+          src={bikeImgOlive}
+          className="flex h-1/3 lg:w-1/2 w-5/6 items-center justify-center m-auto p-5 drop-shadow-2xl"
         />
-        <p className="font-semibold lg:text-xl p-4 bg-goodwhite w-fit rounded-full">
-          Hello World!
-        </p>
       </div>
     </div>
   );
