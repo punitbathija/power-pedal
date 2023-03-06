@@ -38,12 +38,6 @@ function Products() {
             hours/charge
           </h1>
           <div className="my-4 flex gap-3 justify-center justify-items-center align-middle w-fit mx-auto text-center">
-            <p className="text-center bg-olivegreen w-6 rounded-full text-transparent">
-              .
-            </p>
-            <p className="text-center bg-skin w-6 rounded-full text-transparent">
-              .
-            </p>
             <p className="text-center bg-black w-6 rounded-full text-transparent">
               .
             </p>
@@ -76,6 +70,12 @@ function Products() {
             hours/charge
           </h1>
           <div className="my-4 flex gap-3 justify-center justify-items-center align-middle w-fit mx-auto text-center">
+            <p className="text-center bg-olivegreen w-6 rounded-full text-transparent">
+              .
+            </p>
+            <p className="text-center bg-skin w-6 rounded-full text-transparent">
+              .
+            </p>
             <p className="text-center bg-black w-6 rounded-full text-transparent">
               .
             </p>

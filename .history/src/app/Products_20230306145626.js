@@ -30,7 +30,7 @@ function Products() {
           <Image
             alt="cycle"
             src={HeroImg}
-            className="flex items-center justify-center m-auto p-5 drop-shadow-2xl lg:my-14"
+            className="flex items-center justify-center m-auto p-5 drop-shadow-2xl lg:my-16"
           />
           <h1 className="text-goodblack text-xl font-semibold text-center">
             <span className="text-goodred">Power Pedal Vulcun 750</span> is a
@@ -76,6 +76,12 @@ function Products() {
             hours/charge
           </h1>
           <div className="my-4 flex gap-3 justify-center justify-items-center align-middle w-fit mx-auto text-center">
+            <p className="text-center bg-olivegreen w-6 rounded-full text-transparent">
+              .
+            </p>
+            <p className="text-center bg-skin w-6 rounded-full text-transparent">
+              .
+            </p>
             <p className="text-center bg-black w-6 rounded-full text-transparent">
               .
             </p>

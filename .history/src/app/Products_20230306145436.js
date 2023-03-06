@@ -21,7 +21,7 @@ function Products() {
           as each bike is made like a <span className="text-goodred">C4💣</span>
         </p>
       </div>
-      <div className="lg:flex gap-4">
+      <div className="flex">
         <div className="text-center my-2 justify-self-center bg-offwhite p-10 rounded-lg shadow-2xl lg:w-1/2 cursor-pointer hover:shadow-2xl">
           <h1 className="text-goodblack text-3xl font-semibold flex gap-2 align-middle justify-center text-center">
             Power Pedal Vulcun 750
@@ -30,7 +30,7 @@ function Products() {
           <Image
             alt="cycle"
             src={HeroImg}
-            className="flex items-center justify-center m-auto p-5 drop-shadow-2xl lg:my-14"
+            className="flex items-center justify-center m-auto p-5 drop-shadow-2xl"
           />
           <h1 className="text-goodblack text-xl font-semibold text-center">
             <span className="text-goodred">Power Pedal Vulcun 750</span> is a
@@ -76,6 +76,12 @@ function Products() {
             hours/charge
           </h1>
           <div className="my-4 flex gap-3 justify-center justify-items-center align-middle w-fit mx-auto text-center">
+            <p className="text-center bg-olivegreen w-6 rounded-full text-transparent">
+              .
+            </p>
+            <p className="text-center bg-skin w-6 rounded-full text-transparent">
+              .
+            </p>
             <p className="text-center bg-black w-6 rounded-full text-transparent">
               .
             </p>
