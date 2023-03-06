@@ -1,22 +1,15 @@
 "use client";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import {
-  Navigation,
-  Pagination,
-  Scrollbar,
-  A11y,
-  EffectCube,
-  EffectFade,
-} from "swiper";
+import { Navigation, Pagination, Scrollbar, A11y, EffectCube } from "swiper";
 import "swiper/swiper-bundle.min.css";
 
 export default ({ slides }) => {
   return (
     <Swiper
-      modules={[Navigation, Pagination, Scrollbar, A11y, EffectFade]}
+      modules={[Navigation, Pagination, Scrollbar, A11y, EffectCube]}
       spaceBetween={50}
-      slidesPerView={3}
+      // slidesPerView={3}
       navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}

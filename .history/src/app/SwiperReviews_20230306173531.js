@@ -16,9 +16,8 @@ export default ({ slides }) => {
     <Swiper
       modules={[Navigation, Pagination, Scrollbar, A11y, EffectFade]}
       spaceBetween={50}
-      slidesPerView={3}
+      slidesPerView={2}
       navigation
-      pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
       effect={"fade"}
     >
