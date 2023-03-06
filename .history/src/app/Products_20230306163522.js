@@ -19,7 +19,7 @@ function Products() {
 
   return (
     <div className="py-8 lg:mx-56 mx-2 bg-goodblack text-goodwhite p-5">
-      <p className="font-semibold lg:text-xl p-4 text-goodblack bg-offwhite w-fit rounded-full">
+      <p className="font-semibold lg:text-xl p-4 bg-offwhite w-fit rounded-full">
         03 - Products
       </p>
       <hr className="flex my-12 w-[90%] text-center justify-center m-auto" />

@@ -18,8 +18,8 @@ function Products() {
   };
 
   return (
-    <div className="py-8 lg:mx-56 mx-2 bg-goodblack text-goodwhite p-5">
-      <p className="font-semibold lg:text-xl p-4 text-goodblack bg-offwhite w-fit rounded-full">
+    <div className="py-8 lg:mx-56 mx-2 bg-goodwhite text-goodblack">
+      <p className="font-semibold lg:text-xl p-4 bg-offwhite w-fit rounded-full">
         03 - Products
       </p>
       <hr className="flex my-12 w-[90%] text-center justify-center m-auto" />
@@ -32,7 +32,7 @@ function Products() {
           as each bike is made like a <span className="text-goodred">C4💣</span>
         </p>
       </div>
-      <div className="lg:flex gap-4 shadow-2xl p-6 rounded-md">
+      <div className="lg:flex gap-4 shadow-2xl p-6rounded-md">
         <div className="text-center my-2 justify-self-center bg-offwhite p-10 rounded-lg shadow-2xl lg:w-1/2 cursor-pointer hover:shadow-2xl">
           <h1 className="text-goodblack text-3xl font-semibold flex gap-2 align-middle justify-center text-center">
             Power Pedal Vulcun 750
