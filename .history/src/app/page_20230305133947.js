@@ -3,7 +3,6 @@ import Header from "./Header";
 import Hero from "./Hero";
 import About from "./About";
 import Feature from "./Feature";
-import Products from "./Products";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,7 +13,6 @@ export default function Home() {
       <Hero />
       <About />
       <Feature />
-      <Products />
     </>
   );
 }
