@@ -30,7 +30,7 @@ function Products() {
           <Image
             alt="cycle"
             src={HeroImg}
-            className="flex items-center justify-center m-auto p-5 drop-shadow-2xl lg:my-20"
+            className="flex items-center justify-center m-auto p-5 drop-shadow-2xl lg:my-14"
           />
           <h1 className="text-goodblack text-xl font-semibold text-center">
             <span className="text-goodred">Power Pedal Vulcun 750</span> is a
@@ -68,7 +68,7 @@ function Products() {
           <Image
             alt="cycle"
             src={BelarImg}
-            className="flex items-center justify-center m-auto p-5 drop-shadow-2xl lg:my-2"
+            className="flex items-center justify-center m-auto p-5 drop-shadow-2xl"
           />
           <h1 className="text-goodblack text-xl font-semibold text-center">
             <span className="text-goodred">Power Pedal Belar 350</span> is a a
