@@ -14,11 +14,11 @@ function paymentsuccess() {
           Your payment was successfull
         </span>{" "}
         Now sit back and relax we will build your order and ship it to you very
-        soon for additional details please check your email
+        soon
       </p>
       <Link href="/">
-        <p className="flex  gap-2 justify-center align-middle m-auto justify-items-center `text-center font-semibold text-2xl p4 my-4">
-          <AiFillHome /> Go Back Home
+        <p className="flex justify-center align-middle m-auto justify-items-center text-center font-semibold text-2xl p4 my-4">
+          Go Back Home
         </p>
       </Link>
     </div>
