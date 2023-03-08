@@ -7,7 +7,7 @@ import GreenImg from "../../public/assets/hero.png";
 import SkinImg from "../../public/assets/skin.png";
 import BlackImg from "../../public/assets/black.png";
 import BelarImg from "../../public/assets/belar.png";
-import { checkout } from "../../checkout";
+import Stripe from "stripe";
 
 function Products() {
   const [selectedColor, setSelectedColor] = useState("green");
@@ -91,19 +91,7 @@ function Products() {
             <span className=" text-goodred font-semibold text-2xl align-middle text-center">
               Offer Price: ₹13,999
             </span>
-            <button
-              className="flex justify-center text-center gap-1 align-middle justify-items-center m-auto p-2 border-none rounded-2xl text-xl font-semibold bg-goodblack text-goodwhite hover:scale-105 hover:shadow-2xl"
-              onClick={() => {
-                checkout({
-                  lineItems: [
-                    {
-                      price: "price_1MittfSInsGWGoGdG2km7kCo",
-                      quantity: 1,
-                    },
-                  ],
-                });
-              }}
-            >
+            <button className="flex justify-center text-center gap-1 align-middle justify-items-center m-auto p-2 border-none rounded-2xl text-xl font-semibold bg-goodblack text-goodwhite hover:scale-105 hover:shadow-2xl">
               Buy Now <BiPurchaseTag />
             </button>
           </div>
@@ -135,19 +123,7 @@ function Products() {
             <span className=" text-goodred font-semibold text-2xl align-middle text-center">
               Offer Price: ₹9,999
             </span>
-            <button
-              className="flex justify-center text-center gap-1 align-middle justify-items-center m-auto p-2 border-none rounded-2xl text-xl font-semibold bg-goodblack text-goodwhite hover:scale-105 hover:shadow-2xl"
-              onClick={() => {
-                checkout({
-                  lineItems: [
-                    {
-                      price: "price_1MitvsSInsGWGoGdXYq7A7eh",
-                      quantity: 1,
-                    },
-                  ],
-                });
-              }}
-            >
+            <button className="flex justify-center text-center gap-1 align-middle justify-items-center m-auto p-2 border-none rounded-2xl text-xl font-semibold bg-goodblack text-goodwhite hover:scale-105 hover:shadow-2xl">
               Buy Now <BiPurchaseTag />
             </button>
           </div>
