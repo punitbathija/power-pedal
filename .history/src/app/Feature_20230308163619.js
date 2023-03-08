@@ -92,7 +92,7 @@ function Feature() {
           </h1>
           <hr className="text-goodwhite py-2" />
           <p className="text-goodwhite text-2xl font-light ">
-            The bike log&apos;s all activites on to the{" "}
+            The bike log's all activites on to the{" "}
             <span className="text-goodred">mobile app</span> location, distance,
             speed, ect
             <span className="text-goodred">

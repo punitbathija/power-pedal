@@ -67,9 +67,8 @@ function Feature() {
           <hr className="text-goodwhite py-2" />
           <p className="text-goodwhite text-2xl font-light ">
             The battery comes with a design standout frame so only frame is
-            required to charge{" "}
-            <span className="text-goodred">50 Km&apos;s</span> range in single
-            charge
+            required to charge <span className="text-goodred">50 Km's</span>{" "}
+            range in single charge
             <span className="text-goodred"> charging time 3.5 hours</span>
           </p>
         </div>
@@ -92,7 +91,7 @@ function Feature() {
           </h1>
           <hr className="text-goodwhite py-2" />
           <p className="text-goodwhite text-2xl font-light ">
-            The bike log&apos;s all activites on to the{" "}
+            The bike log's all activites on to the{" "}
             <span className="text-goodred">mobile app</span> location, distance,
             speed, ect
             <span className="text-goodred">

@@ -122,8 +122,7 @@ function Products() {
           <h1 className="text-goodblack text-xl font-semibold text-center">
             <span className="text-goodred">Power Pedal Belar 350</span> is a a
             cycle for the thinkers its comfort makes you ride the bike for long
-            hours it has a range of 20 km&apos;s and battery life of 2
-            hours/charge
+            hours it has a range of 20 km's and battery life of 2 hours/charge
           </h1>
           <div className="my-4 flex gap-3 justify-center justify-items-center align-middle w-fit mx-auto text-center">
             <p className="text-center bg-black w-6 rounded-full text-transparent">
