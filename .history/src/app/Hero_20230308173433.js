@@ -8,7 +8,7 @@ function Hero() {
     <>
       <div className="bg-offwhite flex-col items-center justify-center align-middle">
         <div className=" lg:flex lg:flex-row flex-col items-center justify-center align-middle lg:mx-56 py-52 lg:py-0">
-          <h1 className="lg:text-9xl text-6xl font-light lg:font-semibold mx-auto my-16 lg:my-60 w-fit px-2 drop-shadow-2xl">
+          <h1 className="lg:text-9xl text-6xl font-light lg:font-semibold mx-auto my-16 lg:my-60 w-fit drop-shadow-2xl">
             POWER PEDAL
           </h1>
           <Image
