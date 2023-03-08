@@ -16,6 +16,6 @@ export async function checkout({ lineItems }) {
     mode: "payment",
     lineItems,
     successUrl: `http://localhost:3000/success?session_id={CHECKOUT_SESSION_ID}`,
-    cancelUrl: window.location.origin,
+    cancelUrl: `http://localhost:3000/failure?session_id={CHECKOUT_SESSION_ID}`,
   });
 }
