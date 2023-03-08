@@ -35,5 +35,3 @@ function Swiper({ slides }) {
     </Swiper>
   );
 }
-
-export default Swiper;

@@ -11,7 +11,7 @@ import {
 } from "swiper";
 import "swiper/swiper-bundle.min.css";
 
-function SwiperReviews({ slides }) {
+export function Swiper({ slides }) {
   return (
     <Swiper
       modules={[Navigation, Pagination, Scrollbar, A11y, EffectFade]}
@@ -34,5 +34,3 @@ function SwiperReviews({ slides }) {
     </Swiper>
   );
 }
-
-export default SwiperReviews;
