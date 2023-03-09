@@ -17,7 +17,7 @@ function Products() {
   };
 
   return (
-    <div className="py-8 md:mx-56 bg-goodblack text-goodwhite md:p-5 rounded-xl">
+    <div className="py-8 md:mx-56 bg-goodblack text-goodwhite md:p-5">
       <p className="font-semibold md:text-xl p-4 text-goodblack bg-offwhite w-fit rounded-full">
         03 - Products
       </p>

@@ -19,7 +19,7 @@ function Header() {
     <div className="flex md:px-10 bg-goodwhite text-goodblack md:h-17 md:py-12 items-center h-12 justify-between">
       <nav className="flex justify-between align-middle md:justify-around md:items-center w-full">
         <div className="flex justify-between align-middle items-center">
-          <div className="md:my-4 cursor-pointer md:border-2 mx-5 h-14 md:p-2 md:bg-goodwhite flex gap-1 justify-start text-2xl text-justify items-center  md:hover:text-goodwhite md:hover:bg-goodblack md:hover:rounded-lg duration-700">
+          <div className="md:my-4 cursor-pointer md:border-2 mx-5 h-14 md:p-2 md:bg-goodwhite flex gap-1 justify-start text-lg md:text-3xl text-justify items-center  md:hover:text-goodwhite md:hover:bg-goodblack md:hover:rounded-lg duration-700">
             <Link href="/"> POWER PEDAL</Link>
           </div>
         </div>
