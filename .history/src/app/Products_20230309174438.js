@@ -32,7 +32,7 @@ function Products() {
           as each bike is made like a <span className="text-goodred">C4💣</span>
         </p>
       </div>
-      <div className="md:flex gap-4 shadow-2xl p-6 rounded-md">
+      <div className="md:flex gap-4 shadow-2xl p-6 rounded-md w-full">
         <div className="text-center my-2 justify-self-center bg-offwhite p-10 rounded-lg shadow-2xl md:w-1/2 cursor-pointer hover:shadow-2xl">
           <h1 className="text-goodblack text-3xl font-semibold flex gap-2 align-middle justify-center text-center">
             Power Pedal Vulcun 750
